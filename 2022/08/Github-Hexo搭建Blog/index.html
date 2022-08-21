@@ -79,15 +79,15 @@
 
 
 
-<meta name="description" content="参考 文章 搭建博客Hexo: https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F; 更换主题 找到想要的主题，我用的是https:&#x2F;&#x2F;github.com&#x2F;lizehongss&#x2F;hexo-theme-zhl clone到themes目录下 在 _config.yml文件中修改theme: hexo-theme-zhl 执行hexo g &amp; hexo s hexo deploy部署  Hexo小t">
+<meta name="description" content="Hexo: https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F; 参考 文章 搭建博客 Next配置时遇到奇怪的问题 Next的_config.yml里自带了LeanCloud的评论，注册之后把App ID和App Key复制到_config.yml里即可 更换主题 找到想要的主题，我用的是next clone到themes目录下 在 _config.yml文件中修改theme: next 执行hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github+Hexo搭建Blog">
+<meta property="og:title" content="Github+Hexo+LeanCloud搭建Blog">
 <meta property="og:url" content="https://timeccj.github.io.com/2022/08/Github-Hexo%E6%90%AD%E5%BB%BABlog/index.html">
 <meta property="og:site_name" content="CCJ&#39;s Blog">
-<meta property="og:description" content="参考 文章 搭建博客Hexo: https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F; 更换主题 找到想要的主题，我用的是https:&#x2F;&#x2F;github.com&#x2F;lizehongss&#x2F;hexo-theme-zhl clone到themes目录下 在 _config.yml文件中修改theme: hexo-theme-zhl 执行hexo g &amp; hexo s hexo deploy部署  Hexo小t">
+<meta property="og:description" content="Hexo: https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F; 参考 文章 搭建博客 Next配置时遇到奇怪的问题 Next的_config.yml里自带了LeanCloud的评论，注册之后把App ID和App Key复制到_config.yml里即可 更换主题 找到想要的主题，我用的是next clone到themes目录下 在 _config.yml文件中修改theme: next 执行hexo">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-21T07:03:40.000Z">
-<meta property="article:modified_time" content="2022-08-21T07:49:26.117Z">
+<meta property="article:modified_time" content="2022-08-21T13:46:46.186Z">
 <meta property="article:author" content="CCJ">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -126,7 +126,7 @@
 
 
 
-  <title>Github+Hexo搭建Blog | CCJ's Blog</title>
+  <title>Github+Hexo+LeanCloud搭建Blog | CCJ's Blog</title>
   
 
 
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Github+Hexo搭建Blog</h1>
+          <h1 class="post-title" itemprop="name headline">Github+Hexo+LeanCloud搭建Blog</h1>
         
 
         <div class="post-meta">
@@ -362,11 +362,14 @@
       
 
       
-        <p>参考 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42372852/article/details/113108425">文章</a> 搭建博客<br>Hexo: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+        <p>Hexo: <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>
+<p>参考 <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_42372852/article/details/113108425">文章</a> 搭建博客</p>
+<p><a target="_blank" rel="noopener" href="http://s0ber.com/2019/02/22/Next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98/">Next配置时遇到奇怪的问题</a></p>
+<p>Next的<code>_config.yml</code>里自带了LeanCloud的评论，<a target="_blank" rel="noopener" href="https://valine.js.org/quickstart.html">注册</a>之后把App ID和App Key复制到<code>_config.yml</code>里即可</p>
 <h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><ol>
-<li>找到想要的主题，我用的是<a target="_blank" rel="noopener" href="https://github.com/lizehongss/hexo-theme-zhl">https://github.com/lizehongss/hexo-theme-zhl</a></li>
+<li>找到想要的主题，我用的是next</li>
 <li><code>clone</code>到<code>themes</code>目录下</li>
-<li>在 <code>_config.yml</code>文件中修改<code>theme: hexo-theme-zhl</code></li>
+<li>在 <code>_config.yml</code>文件中修改<code>theme: next</code></li>
 <li>执行<code>hexo g</code> &amp; <code>hexo s</code></li>
 <li><code>hexo deploy</code>部署</li>
 </ol>
@@ -376,7 +379,13 @@
 <li><code>hexo new 文章名</code></li>
 <li>在对应md文件中编辑</li>
 </ol>
-<h3 id="修改图标-x2F-链接"><a href="#修改图标-x2F-链接" class="headerlink" title="修改图标&#x2F;链接"></a>修改图标&#x2F;链接</h3><p>如果添加了主题，要在修改对应主题目录修改<code>_config.yml</code>文件</p>
+<h3 id="打草稿"><a href="#打草稿" class="headerlink" title="打草稿"></a>打草稿</h3><ol>
+<li><code>hexo new draft 文章名</code></li>
+<li>在md文件中编辑</li>
+<li><code>hexo publish 文章名</code></li>
+<li><code>hexo deploy</code>发布</li>
+</ol>
+<h3 id="修改页面里的图标-x2F-链接"><a href="#修改页面里的图标-x2F-链接" class="headerlink" title="修改页面里的图标&#x2F;链接"></a>修改页面里的图标&#x2F;链接</h3><p>如果添加了主题，要在修改对应主题目录修改<code>_config.yml</code>文件</p>
 
       
     </div>
@@ -564,7 +573,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">更换主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E5%B0%8Ftips"><span class="nav-number">2.</span> <span class="nav-text">Hexo小tips</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%88%86%E7%B1%BB-amp-%E5%A4%9Atag"><span class="nav-number">2.1.</span> <span class="nav-text">多分类 &amp; 多tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%99%E6%96%87%E7%AB%A0"><span class="nav-number">2.2.</span> <span class="nav-text">写文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E5%9B%BE%E6%A0%87-x2F-%E9%93%BE%E6%8E%A5"><span class="nav-number">2.3.</span> <span class="nav-text">修改图标&#x2F;链接</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">更换主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E5%B0%8Ftips"><span class="nav-number">2.</span> <span class="nav-text">Hexo小tips</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A4%9A%E5%88%86%E7%B1%BB-amp-%E5%A4%9Atag"><span class="nav-number">2.1.</span> <span class="nav-text">多分类 &amp; 多tag</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%99%E6%96%87%E7%AB%A0"><span class="nav-number">2.2.</span> <span class="nav-text">写文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%89%93%E8%8D%89%E7%A8%BF"><span class="nav-number">2.3.</span> <span class="nav-text">打草稿</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%87%8C%E7%9A%84%E5%9B%BE%E6%A0%87-x2F-%E9%93%BE%E6%8E%A5"><span class="nav-number">2.4.</span> <span class="nav-text">修改页面里的图标&#x2F;链接</span></a></li></ol></li></ol></div>
             
 
           </div>
